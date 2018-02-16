@@ -1,0 +1,108 @@
+/* http://www.ekogroszek.biz/ */
+.group:before,
+.group:after 
+{
+	content: "";
+	display: table;
+}
+
+.group:after 
+{
+	clear: both;
+}
+
+.group 
+{
+	zoom: 1;
+}
+
+body
+{
+	background-color: #4d1b04;
+	background-image: url("../img/bg.jpg");
+	background-repeat: repeat-x;
+}
+
+.container
+{
+	width: 840px;
+	margin: 0 auto;
+	
+
+}
+
+.top
+{
+	position: relative;
+}
+
+.logo
+{
+	background-image: url("../img/t1.jpg");
+	width: 100%;
+	height: 167px;
+}
+
+.navBar
+{
+	background-image: url("../img/t2.jpg");
+	width: 100%;
+	height: 162px;
+	position: absolute;
+	top: 160px;
+}
+
+.imp
+{
+	width: 100%;
+	height: 155px;
+}
+
+.nav
+{
+	width: 100%;
+	background-color: #e5cfa0;
+	border-left: 6px solid #784025;
+	border-right: 6px solid #784025;
+	box-sizing: border-box;
+	height: 50px;
+	padding-top: 5px;
+}
+
+.menu
+{
+	width: 97.5%;
+	height: 40px;
+	background-color: #784025;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: 2px solid #fff;
+}
+
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+
+}
+
+.menu ul li
+{
+	float: left;
+	padding-right: 30px;
+	line-height: 40px;
+
+}
+
+.menu ul li a
+{
+	color: #ffcd44;
+	text-decoration: none;
+}
+
+.menu ul li a:hover
+{
+	color: white;
+}
+
